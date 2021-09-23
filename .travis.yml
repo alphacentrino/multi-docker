@@ -18,7 +18,7 @@ after_success:
   - docker push rdocker11/multi-nginx
   - docker push rdocker11/multi-server
   - docker push rdocker11/multi-worker
-
+# Deploying to AWS
 deploy:
   provider: elasticbeanstalk
   region: "eu-west-2"
